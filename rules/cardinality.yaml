@@ -6,7 +6,7 @@ es_host: localhost
 
 # (Required)
 # Elasticsearch port
-es_port: 9300
+es_port: 9200
 
 # (Required)
 # Index to search, wildcard supported

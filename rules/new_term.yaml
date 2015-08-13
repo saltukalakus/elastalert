@@ -3,11 +3,11 @@
 
 # (Required)
 # Elasticsearch host
-es_host: elasticsearch.example.com
+es_host: localhost
 
 # (Required)
 # Elasticsearch port
-es_port: 14900
+es_port: 9200
 
 # (OptionaL) Connect with SSL to elasticsearch
 #use_ssl: True
