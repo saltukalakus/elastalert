@@ -17,7 +17,7 @@ es_port: 9200
 
 # (Required)
 # Rule name, must be unique
-name: Example rule
+name: Node populated elastic log monitor
 
 # (Required)
 # Type of alert.
@@ -26,7 +26,7 @@ type: frequency
 
 # (Required)
 # Index to search, wildcard supported
-index: logstash-*
+index: myindex
 
 # (Required, frequency specific)
 # Alert when this many documents matching the query occur within a timeframe
@@ -43,7 +43,7 @@ timeframe:
 # For more info: http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl.html
 filter:
 - term:
-    some_field: "some_value"
+    title: "foo"
 
 # (Required)
 # The alert is use when a match is found
@@ -53,4 +53,4 @@ alert:
 # (required, email specific)
 # a list of email addresses to send alerts to
 email:
-- "elastalert@example.com"
+- "saltukalakus@gmail.com"
