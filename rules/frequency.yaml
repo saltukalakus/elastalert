@@ -54,3 +54,11 @@ alert:
 # a list of email addresses to send alerts to
 email:
 - "saltukalakus@gmail.com"
+
+smtp_host: smtp.gmail.com
+
+smtp_port: 465
+
+smtp_ssl: true
+
+smtp_auth_file: "/home/keys/gmail.conf"
